@@ -1,0 +1,13 @@
+{
+    "name": "Google Translate",
+    "description": "View translations easily as you browse the web. By the Google Translate team.Inspect views background page",
+    "version": "1.0.0",
+    "content_security_policy": {
+        "extension_pages": "script-src 'self' ; object-src 'self'"
+    },
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "icons/Icon-192.png"
+    },
+    "manifest_version": 3
+}
